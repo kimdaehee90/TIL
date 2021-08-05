@@ -2,7 +2,7 @@
 
 변수와 상수는 특정 이름에 특정 값을 담는 용도로 사용합니다. 변수와 상수를 이해하기 위해선 먼저 **변수와 상수**를 어떻게 쓰는지를 보아야 합니다.
 
-'''
+'''javascript
 let variable = 1;
 
 console.log(variable);
@@ -20,7 +20,7 @@ variable이란 변수에 1을 담고 console이라는 출력하는 함수를 이
 
 변수와 상수가 그럼 다른것이 무엇인가?라는 의문이 들면 정상입니다. 변수란 바뀔수 있는 값을 말합니다. 
 
-'''
+'''javascript
 let variable = 1;
 
 console.log(variable);// 1
@@ -36,7 +36,7 @@ console.log(variable);// 2
 
 상수는 선언한 변수가 더이상 변하지 않는 값을 말합니다. 
 
-'''
+'''javascript
 const constant = 2;
 
 console.log(constatnt);// 2
